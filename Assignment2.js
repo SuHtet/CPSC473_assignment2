@@ -34,7 +34,7 @@ function printO(){
   document.getElementById("gradesTitle").innerHTML = "Grades for " + " "+ searchedName;
   var text = "<ul>";
 
-  if(searchedName == "John Smith"){
+  if(searchedName == searchName){
     text = myObj.student[0].Courses;
   }
   else{
